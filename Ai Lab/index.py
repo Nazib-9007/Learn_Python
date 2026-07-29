@@ -56,3 +56,45 @@ def myFunc():
     a = 'fantastic';
 myFunc();
 print('Python is ', a);
+# python data type..
+#complex type.
+x = 1+2j; 
+print(type(x));
+
+#list type..
+x = ['Bangladesh', 'Palestine', 'Korea'];
+print(type(x));
+
+#tuple type..
+x = ('Bangladesh', 'Palestine', 'Korea')
+print(type(x));
+
+#range type
+x = range(10);
+print(x);
+print(list(x));
+
+#dict type..
+x = {'name: ' : 'Nazib', 'age': 23 };
+print(type(x));
+
+#set, frozenset type..
+x = {'Bangladesh', 'Palestine', 'Korea'};
+print(type(x));
+
+x = frozenset({'apple', 'banana', 'orange'})
+print(type(x));
+
+#bytes, bytearray, memoryview type
+x = bytes(range(10, 15)); 
+x = bytes(5);
+a = bytes();
+print(a);
+# here bytes always carry the ASCII value. 
+#Here use 'b' before any str it convert str to bytes str
+print(x);
+print(type(x));
+
+#NoneType
+x = None;
+print(type(x));
