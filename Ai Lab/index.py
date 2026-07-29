@@ -98,3 +98,7 @@ print(type(x));
 #NoneType
 x = None;
 print(type(x));
+# number to complex number conversion..
+x = 1;
+a = complex(x);
+print(x,a);
