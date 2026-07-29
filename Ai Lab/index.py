@@ -107,3 +107,26 @@ print(x,a);
 import random;
 print(random.randrange(1,50));
 # here randrange means random number range(start, end);
+
+# python casting means just conversion like number to float, float to complex etc.
+# multiline string in python..
+a = """
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labor et dolor magna aliqua.
+""";
+print(a);
+
+# looping through a string..
+for x in 'Banana':
+    print(x);
+
+# check length..
+x = 'Bangladesh';
+print(len(x));
+
+#check string..
+txt = "The best things in life are free";
+print("free" in txt, type(txt));
+# here txt is a string type but when check str it returns the boolean type.
