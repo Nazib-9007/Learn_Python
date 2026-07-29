@@ -49,3 +49,10 @@ def globalVariable():
     print('This is a ', a);
 globalVariable();
 print('This is ', a);
+# Global variable keyword...
+a = 'awesome';
+def myFunc():
+    global a
+    a = 'fantastic';
+myFunc();
+print('Python is ', a);
