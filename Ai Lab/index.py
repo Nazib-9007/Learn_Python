@@ -170,3 +170,11 @@ print(a.replace("ello", "i"));
 
 a = "Hello world or universe";
 print(a.split("!"));
+sentence = "Python is a powerful programming language";
+print(sentence.split());
+
+csx_data = "Rahim,25,Dhaka,Bangladesh";
+print(csx_data.split(","));
+
+txt = "I love Python programming language very much";
+print(txt.split(' ', 3)); # here 3 is represent the index where the total str are return. It's called maxsplit
