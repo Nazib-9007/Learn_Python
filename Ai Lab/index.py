@@ -37,3 +37,15 @@ print(x);
 country = ['Bangladesh', 'Palestine', 'South Korea'];
 x, y, z = country;
 print (x, y, z);
+#Global variable...
+x = 'awesome';
+def myFunction ():
+    print('Python is ', x);
+myFunction();
+
+a = 'python world';
+def globalVariable():
+    a = 'fantastic';
+    print('This is a ', a);
+globalVariable();
+print('This is ', a);
