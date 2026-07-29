@@ -154,3 +154,19 @@ print(x[3:]);
 # Negative indexing...
 a = 'Hello python';
 print(a[-5:-3]); # it works in reverse....
+# String Methods....
+a = "Hello python";
+print(a.upper());
+
+a = 'Hello w3schools';
+print(a.lower());
+
+a = " Hi this is white-space ";
+print(a.strip()); #returns Hi this is white-space.
+
+a = 'Hello world';
+print(a);
+print(a.replace("ello", "i"));
+
+a = "Hello world or universe";
+print(a.split("!"));
