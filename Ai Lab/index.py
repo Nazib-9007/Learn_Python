@@ -130,3 +130,16 @@ print(len(x));
 txt = "The best things in life are free";
 print("free" in txt, type(txt));
 # here txt is a string type but when check str it returns the boolean type.
+# use if statement..
+txt = "The best things in life are free";
+print(txt);
+if "use" in txt:
+    print("Yes, 'life' is present");
+else:
+    print('Not present');
+
+# use if not statement..
+txt = "The best things in life are free";
+print(txt);
+if "use" not in txt:
+    print("Yes, 'use' is not present");
