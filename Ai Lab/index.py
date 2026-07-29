@@ -102,3 +102,8 @@ print(type(x));
 x = 1;
 a = complex(x);
 print(x,a);
+
+# python doesn't have random() function but built in have random module.
+import random;
+print(random.randrange(1,50));
+# here randrange means random number range(start, end);
