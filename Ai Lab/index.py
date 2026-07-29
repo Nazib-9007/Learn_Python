@@ -143,3 +143,14 @@ txt = "The best things in life are free";
 print(txt);
 if "use" not in txt:
     print("Yes, 'use' is not present");
+# Slicing string...
+x = 'Hi python';
+print(x[3:6]); # here range start 3 to 6 index value will be 3, 4, 5 not 6;
+
+#slice from the start and end..
+print(x[:5]);
+print(x[3:]);
+
+# Negative indexing...
+a = 'Hello python';
+print(a[-5:-3]); # it works in reverse....
