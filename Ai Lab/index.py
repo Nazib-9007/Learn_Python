@@ -200,3 +200,21 @@ price = 80
 txt = f"This price is {price:.3f} dollars"
 print(txt);
 # here :.3f means show after dot how many numbers.
+# String Methods...
+# title-- every 1st word will be capital
+text = "Hello python world"
+print(text.title());
+# swapcase-- convert every word big to small and small to big
+text = "Hello pyhtHon World";
+print(text.swapcase());
+#casefold-- it's will be the lower case.
+
+# Searching and finding string methods...
+#find-- find the substring if present return start index number, if not return -1.
+text = "Hello python learner"
+print(text.find("Nazib"));
+print(text.find("learner"));
+#index(sub)-- most like find() but if not find then return the value error..
+text = "Hello javascript learner"
+print(text.index("python"));
+print(text.index("learner"));
