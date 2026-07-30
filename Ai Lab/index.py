@@ -226,3 +226,19 @@ text = "Let's learn python from w3schools."
 print(text.startswith("python"));
 print(text.startswith("Let's"));
 #endswith(suffix)-- same as the startswith..
+# Assignment Operator...
+# here "//" is the complete number of division.
+x = 10
+x//=8
+print(x);
+y = 10
+y = y //9
+print(y)
+#&=
+x = 5
+x&=3
+print(x);
+# |= bit wise OR operation means binary addition.
+x = 10
+x |= 5
+print(x);
