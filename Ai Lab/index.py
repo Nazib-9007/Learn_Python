@@ -251,3 +251,13 @@ print(x);
 age = input("Enter your age: ")
 result = "Adult" if int(age) >= 18 else "Child Baby";
 print(result);
+# Logical Operator..
+x = 5
+print(x > 0 and x < 10); # must be both condition will true
+
+x = 5
+print(x < 5 or x >10) # if any one false then both are false
+
+x = 5
+print(not(x > 5 and x < 10)); # reverse the and answer..
+# answer is false but when use not it will be true.
