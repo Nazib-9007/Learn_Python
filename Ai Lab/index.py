@@ -218,3 +218,11 @@ print(text.find("learner"));
 text = "Hello javascript learner"
 print(text.index("python"));
 print(text.index("learner"));
+#count-- how many times are present subs string
+text = "python python python"
+print(text.count("python"));
+#startswith(prefix)-- start fixed string?? return true or false
+text = "Let's learn python from w3schools."
+print(text.startswith("python"));
+print(text.startswith("Let's"));
+#endswith(suffix)-- same as the startswith..
