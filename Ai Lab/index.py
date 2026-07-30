@@ -196,3 +196,7 @@ print(txt);
 price = 60
 txt = f"The price is {price} dollars."
 print(txt);
+price = 80
+txt = f"This price is {price:.3f} dollars"
+print(txt);
+# here :.3f means show after dot how many numbers.
