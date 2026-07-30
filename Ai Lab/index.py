@@ -178,3 +178,9 @@ print(csx_data.split(","));
 
 txt = "I love Python programming language very much";
 print(txt.split(' ', 3)); # here 3 is represent the index where the total str are return. It's called maxsplit
+# BMI calculate...
+height = input("Enter your height: ");
+weight = input("Enter your weight: ");
+bmi = float(weight) / float(height)**2;
+print(bmi);
+print(type(bmi));
