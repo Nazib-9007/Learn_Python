@@ -242,3 +242,12 @@ print(x);
 x = 10
 x |= 5
 print(x);
+# Ternary Operator..
+# means one-line condition apply
+num = 6;
+x = "Weekend!" if num > 5 else "Workday";
+print(x);
+
+age = input("Enter your age: ")
+result = "Adult" if int(age) >= 18 else "Child Baby";
+print(result);
