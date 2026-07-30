@@ -193,3 +193,6 @@ print(txt);
 age = 36
 txt = f"My name is Nazib, I am {age}"
 print(txt);
+price = 60
+txt = f"The price is {price} dollars."
+print(txt);
