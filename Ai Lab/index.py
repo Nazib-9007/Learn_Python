@@ -184,3 +184,12 @@ weight = input("Enter your weight: ");
 bmi = float(weight) / float(height)**2;
 print(bmi);
 print(type(bmi));
+# string format..
+# It shows an error.
+age = 36
+txt = "My name is Nazib, I am "+ age;
+print(txt);
+# put "f" in front of the str and add curly {} as placeholder of variable.
+age = 36
+txt = f"My name is Nazib, I am {age}"
+print(txt);
