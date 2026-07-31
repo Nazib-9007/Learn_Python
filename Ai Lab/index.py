@@ -277,3 +277,20 @@ print(listV); # contain different data types..
 # using list constructor..
 thisList = list(("Apple", "Banana", "Cherry"));
 print(thisList);
+# if else loop
+a = 33
+b = 200
+if b>a :
+    print("b is greater than a");
+
+number = 15
+if number > 0 :
+    print("The number is positive");
+
+age = int(input("Enter your age: "))
+if age >= 18 :
+    print("You are an adult")
+elif age <18 and age >0:
+    print("You are not adult")
+else:
+    print("You are not exists in the world")
