@@ -294,3 +294,27 @@ elif age <18 and age >0:
     print("You are not adult")
 else:
     print("You are not exists in the world")
+is_logged_in = True
+if is_logged_in:
+    print("Welcome back!");
+
+# elif loop...
+a = 33
+b = 33
+if b > a:
+    print("b is greater then a");
+elif a==b:
+    print("a and b are equal");
+
+# multiple elif loop..
+score = 75
+if score >=90:
+    print("Grade: A");
+elif score >=80:
+    print("Grade: A-");
+elif score >=70:
+    print("Grade: B");
+elif score >=50:
+    print("Grade: C");
+else :
+    print("Fail in the exam");
