@@ -261,3 +261,19 @@ print(x < 5 or x >10) # if any one false then both are false
 x = 5
 print(not(x > 5 and x < 10)); # reverse the and answer..
 # answer is false but when use not it will be true.
+# List in python
+thisList = ["Apple", "Banana", "Cherry"];
+print(thisList);
+thisList = ["Apple", "Banana", "Cherry", "Banana", "Apple", "Cherry"];
+print(thisList);
+# allow duplicate values..
+print(len(thisList));
+list1 = ["Apple", "Banana", "Cherry"]
+list2 = [1,2,3,4,5]
+list3 = [True, False, False];
+print(list1, list2, list3);
+listV = ["Bangladesh", 25, True]
+print(listV); # contain different data types..
+# using list constructor..
+thisList = list(("Apple", "Banana", "Cherry"));
+print(thisList);
