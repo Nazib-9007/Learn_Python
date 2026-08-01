@@ -184,6 +184,12 @@ weight = input("Enter your weight: ");
 bmi = float(weight) / float(height)**2;
 print(bmi);
 print(type(bmi));
+name = "Nazib"
+age = 23;
+# Argument by position..
+print('Hello my name is {name} and I am {age} years old'.format(name = name, age = age));
+# Using f-string...
+print(f'Hello my name is {name} and I am {age} years old');
 # string format..
 # It shows an error.
 age = 36
