@@ -283,6 +283,30 @@ print(listV); # contain different data types..
 # using list constructor..
 thisList = list(("Apple", "Banana", "Cherry"));
 print(thisList);
+#Add item in the list..
+fruits.append("Cherry")
+print(fruits);
+# remove items from the list..
+fruits.remove("Apple");
+print(fruits);
+# insert item in specific position..
+fruits.insert(1, "Strawberries");
+print(fruits);
+# remove item from the list to specific position
+fruits.pop(0);
+print(fruits);
+# reverse the list...
+fruits.reverse();
+print(fruits);
+# sort Alphabetically..
+fruits.append("Apple")
+print(fruits)
+fruits.sort();
+print(fruits);
+# reverse sort..
+fruits.sort(reverse=True);
+print(fruits);
+
 # if else loop
 a = 33
 b = 200
