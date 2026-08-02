@@ -380,3 +380,12 @@ if not a>b:
     print("a is not greater than b");
 else:
     print("b is greater than a");
+# combining multiple operator
+age = 22
+is_student = False
+has_discount = True
+
+if (age<18 or age > 65) and not is_student or has_discount:
+    print("Discount applied");
+else:
+    print("Discount not applied");
