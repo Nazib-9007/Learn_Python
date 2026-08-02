@@ -348,3 +348,12 @@ elif score >=50:
     print("Grade: C");
 else :
     print("Fail in the exam");
+#turnarry operator
+a = 10
+b = 20
+bigger = a if a > b else b
+print("Bigger is: ", bigger);
+
+age = int(input("Enter your age: "));
+adult = age if age > 18 else "You are under 18"
+print("Age is: ", adult);
