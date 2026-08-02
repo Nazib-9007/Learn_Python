@@ -407,3 +407,18 @@ if x>10:
         print("but not above 20");
 else:
     print("Less 20");
+# multilevel nested if-else
+username = "Email" # ""
+password = "python123" # ""
+is_active = True #False
+
+if username:
+    if password:
+        if is_active:
+            print("Login successful");
+        else:
+            print("Account is not active");
+    else:
+        print("Password required");
+else:
+    print("Username required");
