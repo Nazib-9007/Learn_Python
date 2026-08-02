@@ -361,3 +361,7 @@ a = 330
 b = 330
 print("A") if a!=b else print("=") if a==b else print("B");
 # A print korbe na when a!=b hobe, = print korbe when a==b hobe , onnthai print korbe "B"
+x = 15
+y = 20
+max_value = x if x>y else y
+print ("Max value: ", max_value);
