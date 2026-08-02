@@ -373,3 +373,10 @@ if a>b and c>a:
     print("Both conditions are True");
 else:
     print("Both are not True");
+# not operator..
+a = 33
+b = 200
+if not a>b:
+    print("a is not greater than b");
+else:
+    print("b is greater than a");
