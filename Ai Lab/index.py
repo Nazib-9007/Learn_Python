@@ -357,3 +357,7 @@ print("Bigger is: ", bigger);
 age = int(input("Enter your age: "));
 adult = age if age > 18 else "You are under 18"
 print("Age is: ", adult);
+a = 330
+b = 330
+print("A") if a!=b else print("=") if a==b else print("B");
+# A print korbe na when a!=b hobe, = print korbe when a==b hobe , onnthai print korbe "B"
