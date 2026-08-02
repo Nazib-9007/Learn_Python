@@ -365,3 +365,11 @@ x = 15
 y = 20
 max_value = x if x>y else y
 print ("Max value: ", max_value);
+# logical operator
+a = int(input("Enter value a: "));
+b = int(input("Enter value b: "));
+c = int(input("Enter value c: "));
+if a>b and c>a:
+    print("Both conditions are True");
+else:
+    print("Both are not True");
