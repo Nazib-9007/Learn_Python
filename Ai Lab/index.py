@@ -397,3 +397,13 @@ if (temp < 20 and is_raining) and not is_weekend:
     print("Great day for outdoor activities");
 else:
     print("Stay at home");
+# nested if..
+x = 1
+if x>10:
+    print("Above ten")
+    if x>20:
+        print("and also above 20")
+    else:
+        print("but not above 20");
+else:
+    print("Less 20");
