@@ -389,3 +389,11 @@ if (age<18 or age > 65) and not is_student or has_discount:
     print("Discount applied");
 else:
     print("Discount not applied");
+temp = 25
+is_raining = False
+is_weekend = True
+
+if (temp < 20 and is_raining) and not is_weekend:
+    print("Great day for outdoor activities");
+else:
+    print("Stay at home");
