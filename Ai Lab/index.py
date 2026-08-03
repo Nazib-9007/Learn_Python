@@ -306,6 +306,26 @@ print(fruits);
 # reverse sort..
 fruits.sort(reverse=True);
 print(fruits);
+# tuples..
+# fruits = ("Apples", "Orange", "Grapes");
+# fruit2 = tuple(("Apples", "Orange", "Grapes"));
+# print(fruit2);
+# fruits[0] = "Banana";
+# print(fruits)
+# del fruit2;
+# print(fruit2)
+# create set
+fruit = {"Apple", "Orange", "Mango"};
+print("Apple" in fruit); # return the boolean value..
+# add item to the set
+fruit.add('Banana');
+print(fruit)
+# remove the set
+fruit.remove('Mango');
+print(fruit);
+# Clear the set
+fruit.clear();
+print(fruit);
 
 # if else loop
 a = 33
