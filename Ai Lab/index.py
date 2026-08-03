@@ -326,6 +326,55 @@ print(fruit);
 # Clear the set
 fruit.clear();
 print(fruit);
+# Map---Dictionary
+# create Dic..
+person = {
+    'first_name': 'Nazib',
+    'last_name': 'Ul Alam',
+    'age': 25
+}
+print(person);
+
+# dictionary constructor...
+person = dict(first_name = 'Nazib', last_name = 'Ul Alam', age = 25);
+print(person);
+
+# get value..
+get_value = person['first_name'], person['last_name'], person['age'];
+print(get_value);
+
+# use get method..
+value = person.get('first_name');
+print(value);
+
+# add key/value in person object..
+person['course'] = "Python Course"
+person['department'] = "ICT"
+print(person);
+print(person.get('course'));
+print(person.get('department'));
+
+# get all key and items..
+print(person.keys());
+print(person.items());
+
+# Copy dict..
+person2 = person.copy();
+person2['Section'] = 'A';
+print(person2);
+
+# remove the item..
+del(person2['Section']);
+print(person2);
+person2.pop('department');
+print(person2);
+
+# list of dict...
+people = [
+    {'name': 'Marce', 'age':25},
+    {'name': 'Nazib', 'age': 22}
+]
+print(people);
 
 # if else loop
 a = 33
