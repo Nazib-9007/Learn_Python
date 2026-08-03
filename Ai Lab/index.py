@@ -375,6 +375,7 @@ people = [
     {'name': 'Nazib', 'age': 22}
 ]
 print(people);
+print(people[0]['name']);
 
 # if else loop
 a = 33
