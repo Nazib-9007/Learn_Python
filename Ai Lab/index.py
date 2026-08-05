@@ -514,3 +514,12 @@ print(x is y);
 # Membership operators...
 fruits = ["apple", "mango", "orange"]
 print("banana" in fruits); # this "is" operator retrun the boolean type
+
+fruits = ["apple", "mango", "orange"]
+print("banana" not in fruits);
+
+# this operator also work in string...
+txt = "Hello python coder"
+print("p" in txt);
+print("Python" in txt)
+print("r" not in txt);
