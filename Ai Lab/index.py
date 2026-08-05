@@ -538,3 +538,27 @@ a  = a+10;
 # list 
 thislist = ["apple", "banana", "orange", "kiwi", "melon", "mango"]
 print(thislist[2:5])
+# looping using List comprehension...
+thislist = ["apple", "banana", "cherry"]
+# [print(x) for x in thislist];
+for x in thislist:
+    print(x);
+thislist = ["Apple", "Banana", "Cherry"]
+for i in range(len(thislist)):
+    print(thislist[i]);
+
+# While loop..
+thislist = ["Bangladesh", "China", "Japan", "Korea"]
+while i < len(thislist):
+    print(thislist[i])
+    i +=1;
+# list comprehension
+fruit = ["Apple", "Banana", "CHerry", "Kiwi"]
+newList = []
+for i in fruit:
+    if "a" in i or "A" in i:
+        newList.append(i)
+print(newList);
+car = ["Tayota", "BMW", "Akij", "ODDDY"]
+newList = [i for i in car if 'a' in i or 'A' in i]
+print(newList);
