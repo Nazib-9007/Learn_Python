@@ -534,3 +534,7 @@ print( a // b)
 print( a** b);
 # Add 10 to a
 a  = a+10;
+
+# list 
+thislist = ["apple", "banana", "orange", "kiwi", "melon", "mango"]
+print(thislist[2:5])
