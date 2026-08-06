@@ -574,3 +574,16 @@ colors.append("purple")
 colors.remove("red")
 # Print the list
 print(colors)
+# Tuple...
+thistuple = ("apple", "banana", "cherry");
+print(thistuple);
+print(len(thistuple))
+
+thisTuple = ("apple", )
+print(type(thisTuple))
+#NOT a tuple
+thisTuple = ("apple")
+print(type(thisTuple))
+# Tuple consturctor..
+thisTuple = tuple(("apple", "banana", "orange"));
+print(thisTuple);
