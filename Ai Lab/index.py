@@ -584,6 +584,36 @@ print(type(thisTuple))
 #NOT a tuple
 thisTuple = ("apple")
 print(type(thisTuple))
+
 # Tuple consturctor..
 thisTuple = tuple(("apple", "banana", "orange"));
 print(thisTuple);
+
+# Unpacking Tuple
+fruits = ("apple", "banana", "orange")
+(green, yellow, red) = fruits
+print(green)
+print(yellow)
+print(red);
+
+# Using Asterisk*...
+fruits = ("apple", "banana", "cherry", "strawberry", "orange")
+(green, blue, *black) = fruits
+print(green)
+print(blue)
+print(black)
+# Tuple methods "count & index"....
+thisTuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5, 5)
+x = thisTuple.count(5);
+# count = how many times 5 are present in this tuple.
+print(x)
+# Create the tuple
+fruits = ("apple", "banana", "cherry");
+# Print the second item
+print(fruits[1]);
+# Print the number of items
+print(len(fruits));
+# Unpack the tuple
+(a,b,c) = fruits;
+# Print b
+print(b);
