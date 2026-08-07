@@ -617,3 +617,43 @@ print(len(fruits));
 (a,b,c) = fruits;
 # Print b
 print(b);
+
+# python set...
+thisSet = {"apple", "banana", "cherry"}
+print(thisSet);
+# Unchanged 
+unChange = {"apple", "banana", "apple", "cherry"}
+print(unChange)
+
+# python set use update method...
+thisSet = {"Mango", "Orange", "Cherry"}
+color = {"Green", "Red", "Blue"}
+thisSet.update(color)
+print(thisSet)
+
+thisSet.discard("Mango")
+print(thisSet)
+
+thisSet.pop()
+print(thisSet)
+
+# python join sets
+# union, update = add both variable elements...
+car = {"BMW", "ODDY", "Tesla"}
+japCar = {"Tayota", "Neesan"}
+print(car.union(japCar))
+
+#intersection = common element are present in both variable....
+fruit = {"Apple", "Mango", "Orange"}
+food = {"Burgger", "Pizza", "Chicken fry", "Mango"}
+print(fruit.intersection(food))
+
+# difference = it's same as the math subtruction...
+set1 = {"apple", "mango", "orange"}
+set2 = {"google", "microsoft", "apple"}
+print(set1.difference(set2))
+
+# symmetric difference = remove the same element of both variables....
+tech1 = {"google", "samsung", "sony"}
+tech2 = {"microsoft", "apple", "android", "sony"}
+print(tech1.symmetric_difference(tech2))
