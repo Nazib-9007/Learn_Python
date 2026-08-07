@@ -657,3 +657,8 @@ print(set1.difference(set2))
 tech1 = {"google", "samsung", "sony"}
 tech2 = {"microsoft", "apple", "android", "sony"}
 print(tech1.symmetric_difference(tech2))
+
+#python frozenset...
+x = frozenset({"apple", "banana", "cherry"})
+print(x)
+print(type(x));
