@@ -662,3 +662,18 @@ print(tech1.symmetric_difference(tech2))
 x = frozenset({"apple", "banana", "cherry"})
 print(x)
 print(type(x));
+
+# python Dictionaries.. it's like a js object..
+thisDictionary = {
+    "band" : "Ford",
+    "model": "Mustang",
+    "year" : 1964 
+}
+print(thisDictionary)
+print(thisDictionary["model"])
+print(len(thisDictionary))
+
+# dict constructor...
+thisDict = dict(name = "BMW", id = 5658, model = "Mustang")
+print(thisDict);
+print(type(thisDict["id"]));
