@@ -677,3 +677,18 @@ print(len(thisDictionary))
 thisDict = dict(name = "BMW", id = 5658, model = "Mustang")
 print(thisDict);
 print(type(thisDict["id"]));
+thisDict["car"] = "Four  wheel";
+print(thisDict)
+x = thisDict.values();
+print(x);
+thisDict["name"] = "Tayota"
+print(thisDict);
+# python Dictionaries.. it's like a js object..
+thisDictionary = {
+    "band" : "Ford",
+    "model": "Mustang",
+    "year" : 1964 
+}
+# pop() items from the dictionary...
+thisDictionary.popitem();
+print(thisDictionary)
