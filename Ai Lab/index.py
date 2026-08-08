@@ -730,3 +730,14 @@ print(increment(2, by=1))
 def temperature (temp):
     return (temp-32)*5 / 9;
 print(temperature(77));
+def my_function(animal, name):
+    print(f"I have a {animal}")
+    print(f"My {animal}'s name is {name}");
+my_function(animal="Cat", name="Joro");
+
+def my_function (person):
+    print("Name", person["name"])
+    print("Age:", person["age"]);
+# dictionary as an argument....
+my_person = {"name": "Email", "age": 25}
+my_function(my_person)
