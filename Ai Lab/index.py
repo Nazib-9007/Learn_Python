@@ -715,3 +715,18 @@ num1 = int(input()) # Don't change this line
 num2 = int(input()) # Don't change this line
 product = num1 * num2
 print("product =", product) # Don't change this line
+#Python Function...
+def myFunction ():
+    print("Hello from a function")
+myFunction();
+def student(firstName, lastName):# here firstName and lastName is perameter..
+    print(f"Name of student is {firstName} {lastName}");
+student("Nazib", "Ul Alam") #here inside function thats  are arguments...
+
+def increment(number, by):
+    return number + by;
+print(increment(2, by=1))
+
+def temperature (temp):
+    return (temp-32)*5 / 9;
+print(temperature(77));
