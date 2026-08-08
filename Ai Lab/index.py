@@ -692,3 +692,26 @@ thisDictionary = {
 # pop() items from the dictionary...
 thisDictionary.popitem();
 print(thisDictionary)
+# practise..
+for i in range(1, 21):
+    if i%2!=0:
+        continue
+    print(i)
+number_input = int(input("Enter a number: "))
+first_number = 1
+for i in range(1, number_input+1):
+    first_number *=i
+print(first_number);
+
+# Get input from user
+start = int(input())
+end = int(input())
+step = int(input())
+
+# Write your for loop here
+for i in range(start, end, step):
+    print(i);
+num1 = int(input()) # Don't change this line
+num2 = int(input()) # Don't change this line
+product = num1 * num2
+print("product =", product) # Don't change this line
