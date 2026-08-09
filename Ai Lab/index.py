@@ -741,3 +741,45 @@ def my_function (person):
 # dictionary as an argument....
 my_person = {"name": "Email", "age": 25}
 my_function(my_person)
+# Get input for rows and columns
+rows = int(input())
+cols = int(input())
+
+# Write your nested loops here
+# Outer loop for rows
+# Inner loop for columns
+for i in range(rows):
+    rows = ""
+    for j in range(cols):
+        rows += "*"
+    print(rows)
+
+first_input = int(input())
+res = 0
+for i in range(first_input):
+    inputs = int(input())
+    res += inputs
+print(res);
+
+# Declare the function print_large_number below
+def print_large_number():
+    print(50005000)
+n = int(input())
+for i in range(n):
+    # Call the function here
+    print_large_number();
+
+# Declare your function here
+def product(a1, b1):
+    return print(a1 * b1);
+# # print the result of a*b inside the function
+a = int(input())
+b = int(input())
+# # Call your function here with the arguments a and b
+product(a, b);
+
+def square_number (n):
+    return n*n
+input_num = int(input())
+result = square_number(input_num)
+print(result);
