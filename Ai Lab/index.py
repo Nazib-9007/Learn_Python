@@ -830,3 +830,19 @@ for i in range (n):
         new_list.pop()
     elif (userInput[0]=="reverse"):
         new_list.reverse()
+def fizzbuzz(number):
+    # Check for "Almost Fizz" first (contains '3')
+    if "3" in str(number):
+        if number % 3 != 0 and number % 7 != 0:
+            return "Almost Fizz"
+        # If divisible by 3 or 7, fall through to normal rules
+    
+    # Original FizzBuzz rules
+    if number % 3 == 0 and number % 7 == 0:
+        return "FizzBuzz"
+    elif number % 3 == 0:
+        return "Fizz"
+    elif number % 7 == 0:
+        return "Buzz"
+    else:
+        return str(number)
