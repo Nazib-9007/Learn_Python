@@ -806,3 +806,27 @@ n = int(input());
 for i in range(n):
     i +=1
     print(i, end="");
+
+# List problem...
+n = int(input())
+new_list = []
+for i in range (n):
+    userInput = input()
+    if(userInput[0] == 'insert'):
+        i = int(userInput[1])
+        e = int(userInput[2])
+        new_list(i,e);
+    elif (userInput[0]=="print"):
+        print(new_list)
+    elif (userInput[0]=="remove"):
+        e = int(userInput[1])
+        new_list.remove(e)
+    elif (userInput[0]=="append"):
+        e = int(userInput[1])
+        new_list.append(e)
+    elif (userInput[0]=="sort"):
+        new_list.sort()
+    elif (userInput[0]=="pop"):
+        new_list.pop()
+    elif (userInput[0]=="reverse"):
+        new_list.reverse()
