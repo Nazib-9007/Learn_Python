@@ -783,3 +783,26 @@ def square_number (n):
 input_num = int(input())
 result = square_number(input_num)
 print(result);
+
+yearInput = int(input("Enter the year: "))
+if (yearInput % 4 == 0 and yearInput % 100 !=0) or (yearInput % 400 == 0):
+    print("Leap Year");
+else:
+    print("Not Leap Year");
+
+def is_leap(year):
+    leap = False
+    # Write your logic here
+    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        return True;
+    else:
+        return False;
+    return leap;
+
+year = int(input())
+print(is_leap(year))
+
+n = int(input());
+for i in range(n):
+    i +=1
+    print(i, end="");
