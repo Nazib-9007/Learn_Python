@@ -846,3 +846,19 @@ def fizzbuzz(number):
         return "Buzz"
     else:
         return str(number)
+
+def myfunc():
+    x = 300
+    print(x);
+myfunc();
+
+
+def values(lst):
+    # Write code here
+    for i in range(len(lst)):
+        print(lst[i]);
+
+values([5,9,2,10,2])
+
+data = [1,2,3,4]
+data.clear()
