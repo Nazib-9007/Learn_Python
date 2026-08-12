@@ -862,3 +862,31 @@ values([5,9,2,10,2])
 
 data = [1,2,3,4]
 data.clear()
+
+fruits = ("apples", "banana", "cherry")
+colors = ("red", "green", "blue")
+first_fruit = fruits[0]
+print(first_fruit);
+single_item = ("apple",)
+print(single_item);
+
+word = ["hi", "hello", "hey", "howdy"]
+for words in word:
+    if len(words)>3:
+        print(words)
+
+lst = input().split(",")
+# Write your code below
+new_lst = []
+for lsts in lst:
+    if len(lsts) > 5:
+        new_lst.append(lsts);
+print(new_lst)
+
+lst = list(map(int, input().split(",")))
+# Write your code below
+new_list = []
+for index, lsts in enumerate(lst):
+    if lsts < 50 or lsts % 5 == 0:
+        new_list.append(index)
+print(new_list)
