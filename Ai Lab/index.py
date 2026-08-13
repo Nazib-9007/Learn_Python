@@ -890,3 +890,30 @@ for index, lsts in enumerate(lst):
     if lsts < 50 or lsts % 5 == 0:
         new_list.append(index)
 print(new_list)
+
+#Dictionary....
+customer = {
+    'name': 'Nazib',
+    'age': 24,
+    'is_verified': True
+}
+print(customer['is_verified']);
+print(customer['name'])
+print(customer['age'])
+customer['name'] = 'S M Nazib Ul Alam'
+customer['birthday'] = 'April 22 2004'
+print(customer['birthday'])
+
+phone_number = input("Enter phone number: ")
+digits = {
+    '0':'zero',
+    '1': 'one',
+    '2': 'two',
+    '3': 'three',
+    '4': 'four'
+}
+
+result = ''
+for i in phone_number:
+    result += digits.get(i, "!") + ' ';
+print(result)
