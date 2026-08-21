@@ -27,4 +27,13 @@ else:
     print('Not eligible for loan');
 
 if has_good_credit and not has_criminal_record:
-    print('Eligible for loan')
+    print('Eligible for loan');
+    
+name = input('Enter your name: ')
+
+if len(name) < 3:
+    print('Name must be at least 3 characters');
+elif len(name) > 20:
+    print('Name can be a maximum of 10 characters');
+else:
+    print('Name looks good')
