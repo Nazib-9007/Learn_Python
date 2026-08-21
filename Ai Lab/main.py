@@ -52,3 +52,16 @@ elif ask_kg_lb == 'l':
 
 else:
     print('Invalid Choice');
+    
+# while loop using make a guess game...
+secret_num = 9
+i = 0
+while i<3:
+    guess = int(input('Guess: '))
+    i += 1
+    if guess == secret_num:
+        print('You succeded!')
+        break;
+else:
+    print('Timed out!');
+    
