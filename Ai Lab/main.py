@@ -37,3 +37,18 @@ elif len(name) > 20:
     print('Name can be a maximum of 10 characters');
 else:
     print('Name looks good')
+    
+# weight conversion project...
+weight = float(input('Enter your weight: '))
+ask_kg_lb = input('(L) bs or (K) kg: ')
+
+if ask_kg_lb == 'k':
+    result = weight * 0.4535
+    print(f'You are {result:.2f} kg')
+
+elif ask_kg_lb == 'l':
+    result = weight/0.4535
+    print(f'You are {result:.2f} lbs')
+
+else:
+    print('Invalid Choice');
