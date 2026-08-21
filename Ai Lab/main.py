@@ -64,4 +64,35 @@ while i<3:
         break;
 else:
     print('Timed out!');
+
+# car game...
+user_input = ''
+started = False
+while True:
+    user_mess = input('>> ')
+    if user_mess == 'start':
+        if started:
+            print('Car is already started..')
+        else:
+            started = True
+            print('Car started...Ready to go!')
+
+    elif user_mess == 'stop':
+        if not started:
+            print('Car is already stopped..')
+        else:
+            started = False
+            print('Car is stopped!')
+
+    elif user_input == 'help':
+        print('Start - To start the car')
+        print('Stop - To stop the car')
+        print('Quit - To exit')
+        print('Note: must be use loewr case...')
+
+    elif user_mess == 'quit':
+        print('The game is Quit!')
+        break;
     
+    else:
+        print("I don't understand!")
