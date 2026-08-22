@@ -96,3 +96,6 @@ while True:
     
     else:
         print("I don't understand!")
+# for loop in python..
+for item in range(5, 10, 2): # here 3rd index where 2 is represent to the difference between two numbers
+    print(item);
